@@ -22,7 +22,6 @@ fi
 #   postinstall
 
 # for build
-(cd node_modules/node-sass && yarn run postinstall)
 (cd node_modules/optipng-bin && yarn run postinstall)
 (cd node_modules/gifsicle && yarn run postinstall)
 (cd node_modules/jpegtran-bin && yarn run postinstall)
